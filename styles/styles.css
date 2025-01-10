@@ -1,0 +1,24 @@
+#nav-bar {
+    display: flex;
+    padding: 24px 160px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.text-format {
+    font-family: "Fira Sans";
+}
+
+#nav-bar h2 {
+    color: #0E0E0E;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.signin-btn {
+    border-radius: 8px;
+    border: 1px solid #006A50;
+    padding: 15px 30px;
+}
