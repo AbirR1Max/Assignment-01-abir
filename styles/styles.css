@@ -234,7 +234,6 @@ td,th{
 .donate-section>.ammount-section button {
     padding: 7px 40px;
     border: 1px solid rgba(14, 14, 14, 0.15);
-    background: ;
     border-radius: 16px;
 
 }
@@ -268,7 +267,6 @@ td,th{
     display: flex;
     flex-direction: column;
     align-self: stretch;
-    border-radius: ;
 }
 
 .blog-archive .blog-preview {
@@ -399,7 +397,6 @@ td,th{
     font-weight: 400;
 }
 
-h2 {}
 
 /* accent colors */
 .accent-color-1 {
