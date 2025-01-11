@@ -3,6 +3,31 @@
     font-family: "Fira Sans";
 }
 
+h2 {
+    color: rgba(14, 14, 14, 0.80);
+
+    font-family: "Fira Sans";
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+p {
+    color: rgba(14, 14, 14, 0.70);
+    text-align: left;
+    font-family: "Fira Sans";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    /* 150% */
+}
+
+body {
+    background-color: #F5F5F5;
+}
+
 #nav-bar {
     display: flex;
     padding: 24px 160px;
@@ -22,6 +47,13 @@
 
 .signin-btn {
     border-radius: 8px;
+    border: 1px solid #006A50;
+    padding: 15px 30px;
+}
+.signin-btn:hover {
+    color: white;
+    border-radius: 8px;
+    background-color: #006A50;
     border: 1px solid #006A50;
     padding: 15px 30px;
 }
@@ -60,6 +92,15 @@
     border-radius: 8px;
     color: white;
     border: none;
+}
+
+.hero-btn:hover {
+    padding: 17px 34px;
+    background-color: white;
+    border-radius: 8px;
+    color: rgba(0, 106, 80, 1);
+    border: none;
+    cursor: pointer;
 }
 
 .piller-section {
@@ -106,7 +147,17 @@
     border: none;
     border-radius: 8px;
     padding: 11px 20px;
-    background: #5490F5;
+    cursor: pointer;
+
+}
+
+.learn-btn:hover {
+    color: black;
+    background-color: lightgray;
+    border: none;
+    border-radius: 8px;
+    padding: 11px 20px;
+    cursor: pointer;
 
 }
 
@@ -120,22 +171,62 @@
 
 }
 
+.donate-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
+    margin: 80px;
+}
+
+.donate-section .ammount-section {
+    display: flex;
+    gap: 24px;
+    justify-content: center;
+
+}
+
+.donate-section>.ammount-section button {
+    padding: 7px 40px;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    background: ;
+    border-radius: 16px;
+
+}
+
+.donate-section>.ammount-section button:hover {
+    padding: 7px 40px;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    background: #C6E4D6;
+    border-radius: 16px;
+
+}
+
+.donate-section>.ammount-section button:active {
+    padding: 7px 40px;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    background: rgba(0, 106, 80, 1);
+    border-radius: 16px;
+
+}
+.donate-section>input {
+    text-align: center;
+    width: 1000px;
+    height: 64px;
+    border: none;
+}
+
 /* .table{
     padding: 32px;
 } */
- .blog-section{
+.blog-section {
     margin: 0 160px 80px;
- }
-.readmore-btn {
-    color: white;
-    border: none;
-    padding: 13px 26px;
-    border-radius: 8px;
-    background: #006A50;
 }
+
 
 .footer-section {
     display: flex;
+    background-color: white;
     padding: 50px 160px;
     flex-direction: column;
     align-items: center;
@@ -171,6 +262,35 @@
     padding: 18px 40px;
 }
 
+.blog-archive {
+    display: flex;
+    flex-direction: column;
+    align-self: stretch;
+    border-radius: ;
+}
+
+.blog-archive .blog-preview {
+    background-color: white;
+    margin-top: 24px;
+    padding: 32px;
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+    border-radius: 20px;
+}
+
+.blog-preview img {
+    width: 408px;
+    height: 306px;
+    border-radius: 24px;
+}
+
+.blog-content {
+    display: flex;
+    flex-direction: column;
+}
+
+/* common item and formats */
 .subscribe-btn {
     padding: 17px 34px;
     border: none;
@@ -178,6 +298,62 @@
     background: #006A50;
     color: white;
 }
+
+.subscribe-btn:hover {
+    padding: 17px 34px;
+    border: none;
+    border-radius: 0px 8px 8px 0px;
+    background: lightgrey;
+    color: black;
+}
+
+.readmore-btn {
+    color: white;
+    width: 140px;
+    border: none;
+    padding: 13px 26px;
+    border-radius: 8px;
+    background: #006A50;
+    margin-top: 32px;
+}
+
+.readmore-btn:hover {
+    color: black;
+    width: 140px;
+    border: none;
+    padding: 13px 26px;
+    border-radius: 8px;
+    background: lightgray;
+    margin-top: 32px;
+}
+
+.donate-btn {
+    color: white;
+    cursor: pointer;
+    border-radius: 8px;
+    border: 1px solid rgba(14, 14, 14, 0.10);
+    background: #006A50;
+    padding: 17px 34px;
+    gap: 48px;
+}
+.donate-btn:hover {
+    color: black;
+    border-radius: 8px;
+    border: 1px solid rgba(14, 14, 14, 0.10);
+    background: lightgray;
+    padding: 17px 34px;
+    gap: 48px;
+}
+
+.p-text {
+    font-family: "Fira Sans";
+    color: rgba(14, 14, 14, 0.70);
+    text-align: left;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+h2 {}
 
 /* accent colors */
 .accent-color-1 {
